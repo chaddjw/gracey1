@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(./backgrounds/doggy1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background-color: turquoise;
+    margin: 0;
+    width: 100%;
+    height: 45px;
+    padding:15px 5px;
+    color: white;
+}
+.aboutme{
+    border-style: solid;
+    border-color: white;
+    word-wrap: normal;
+    width: 200px;
+    text-align: center;
+    margin: 25px 15px;
+    padding: 50PX;
+    color: white;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#mainNav{
+    background:rgba(33,33,33 ,0.75);
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#mainNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #mainNav li {
+    display: inline;
+    padding: 5px 10px;
+  }
+  #mainNav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+  }
+  #mainNav li:hover {
+    background: #aaa;
+    height: 25px;
+  }
+  #mainFooter {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
